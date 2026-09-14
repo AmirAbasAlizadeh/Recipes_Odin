@@ -1,0 +1,55 @@
+.recipes {
+    width: fit-content;
+    margin: auto;
+    
+    
+    
+}
+
+.header, .credits {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    color:white;
+}
+
+.header {
+    margin-bottom: 18px;
+    background-color: #d54215;
+}
+
+.list {
+    display: flex;
+
+    padding-bottom: 35px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color:#d54215 ;
+    
+}
+
+.food-img {
+    display: flex;
+    
+    margin: 30px 12px;
+    margin-bottom: 17px;
+    border-radius: 10px;
+
+}
+
+.img-text {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.mac-link, .chicken-link, .steak-link {
+    color: #0f111d;
+    text-decoration: none;
+    background-color: #f7d569;
+    padding: 10px;
+    border: 1px solid #f7d569;
+    border-radius: 8px;
+}
