@@ -1,32 +1,41 @@
 .recipes {
     width: fit-content;
-    margin: auto;
-    
-    
-    
+    margin: auto; 
+}
+body {
+    background-color: lightgoldenrodyellow;
 }
 
-.header, .credits {
+h1.header {
+    background-color: #d54215;
+    color:white;
+    margin-bottom: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 11px ;
+}
+
+.header, .credits, h3, p {  /* Added h3 here, if conflicted other elements in irrevelant sections remove */ 
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.header{
-    color:white;
+    border: 1px solid white;
 }
 
-.header {
-    margin-bottom: 18px;
-    background-color: #d54215;
+p.credits {
+    background-color: #f7d569;
+    margin: 0px;
+    padding-bottom: 12px;
+    padding-top: 12px
 }
 
-.list {
+div.list {
     display: flex;
 
     padding-bottom: 35px;
     border: 1px solid white;
-    border-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     background-color:#d54215 ;
-    
 }
 
 .food-img {
@@ -41,8 +50,7 @@
 .img-text {
     text-align: center;
     padding-top: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 
 }
 .mac-link, .chicken-link, .steak-link {
@@ -52,4 +60,49 @@
     padding: 10px;
     border: 1px solid #f7d569;
     border-radius: 8px;
+}
+/* <-------------------------------------------------------------------------------------------> */
+
+.sub-body {
+    background-color: #c7c7c782;
+}
+
+.sub-1-recipes {
+    margin: 110px ;
+    background-color: white;
+    border-radius: 8px;
+    border: 0px;
+}
+h1.main-header{
+    background-color: seagreen;
+    
+}
+div.padd-setter {
+    padding: 28px;
+}
+p.paragraph{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+div.img-adjuster {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.positioning {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f7d569;
+}
+h3 {
+    font-size: 15px;
+    justify-content: center;
+
+}
+
+div.sub-prep-details {
+    display: inline;
+    text-align: center;
 }
